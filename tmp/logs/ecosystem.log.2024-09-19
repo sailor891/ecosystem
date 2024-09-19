@@ -1,0 +1,95 @@
+  [2m2024-09-19T11:28:44.013828Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mlistening on 127.0.0.1:8080[0m
+    [2;3mat[0m examples\axum_tracing.rs:41
+
+  [2m2024-09-19T11:28:52.834786Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 125[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+    [2;3min[0m axum_tracing::[1mlong_task[0m
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:28:52.837344Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mindex handler completed, [1;32mhttp.status[0m[32m: 200[0m
+    [2;3mat[0m examples\axum_tracing.rs:54
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:28:54.537797Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 125[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+    [2;3min[0m axum_tracing::[1mlong_task[0m
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:28:54.539087Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mindex handler completed, [1;32mhttp.status[0m[32m: 200[0m
+    [2;3mat[0m examples\axum_tracing.rs:54
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:29:38.021501Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 126[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+    [2;3min[0m axum_tracing::[1mlong_task[0m
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:29:38.023422Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mindex handler completed, [1;32mhttp.status[0m[32m: 200[0m
+    [2;3mat[0m examples\axum_tracing.rs:54
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:29:42.388856Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 124[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+    [2;3min[0m axum_tracing::[1mlong_task[0m
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:29:42.390793Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mindex handler completed, [1;32mhttp.status[0m[32m: 200[0m
+    [2;3mat[0m examples\axum_tracing.rs:54
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:29:43.062669Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 123[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+    [2;3min[0m axum_tracing::[1mlong_task[0m
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:29:43.064795Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mindex handler completed, [1;32mhttp.status[0m[32m: 200[0m
+    [2;3mat[0m examples\axum_tracing.rs:54
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:29:43.594567Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 123[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+    [2;3min[0m axum_tracing::[1mlong_task[0m
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:29:43.596080Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mindex handler completed, [1;32mhttp.status[0m[32m: 200[0m
+    [2;3mat[0m examples\axum_tracing.rs:54
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:29:44.143247Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 125[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+    [2;3min[0m axum_tracing::[1mlong_task[0m
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:29:44.145237Z[0m [32m INFO[0m [1;32maxum_tracing[0m[32m: [32mindex handler completed, [1;32mhttp.status[0m[32m: 200[0m
+    [2;3mat[0m examples\axum_tracing.rs:54
+    [2;3min[0m axum_tracing::[1mindex_handler[0m
+
+  [2m2024-09-19T11:30:14.359715Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 125[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+
+  [2m2024-09-19T11:30:14.483572Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 123[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+
+  [2m2024-09-19T11:30:14.669495Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 123[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+
+  [2m2024-09-19T11:30:14.794540Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 124[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+
+  [2m2024-09-19T11:30:15.000293Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 124[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+
+  [2m2024-09-19T11:30:15.137940Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 127[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+
+  [2m2024-09-19T11:30:15.295728Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 123[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+
+  [2m2024-09-19T11:30:15.483882Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 127[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+
+  [2m2024-09-19T11:30:15.652536Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 123[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
+
+  [2m2024-09-19T11:30:15.746092Z[0m [33m WARN[0m [1;33maxum_tracing[0m[33m: [33mtask takes too long, [1;33mapp.task_duration[0m[33m: 125[0m
+    [2;3mat[0m examples\axum_tracing.rs:64
