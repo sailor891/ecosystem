@@ -7,10 +7,12 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.81"
+chrono = { version = "0.4.38", features = ["serde"] }
 derive_more = { version = "1.0.0", features = ["full"] }
 opentelemetry = "0.22.0"
 opentelemetry-otlp = { version = "0.15.0", features = ["tonic"] }
 opentelemetry_sdk = { version = "0.22.1", features = ["rt-tokio"] }
+serde = { version = "1.0.197", features = ["derive"] }
 strum = { version = "0.26.3", features = ["derive"] }
 thiserror = "1.0.58"
 tracing = "0.1.40"

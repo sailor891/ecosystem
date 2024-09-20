@@ -1,2 +1,18 @@
 ### get index
 GET http://localhost:8080/
+
+### update user
+PATCH http://localhost:8080/
+Content-Type: application/json
+
+{
+    "age":10
+}
+
+### update user
+PATCH http://localhost:8080/
+Content-Type: application/json
+
+{
+    "skills":["Go","Rust"]
+}
