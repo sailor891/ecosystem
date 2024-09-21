@@ -39,7 +39,8 @@ struct User {
     // SensitiveData手动实现了Display和FromStr trait；在解析、解构时使用
     #[serde_as(as = "DisplayFromStr")]
     sensitive: SensitiveData,
-    // Uri在http这个crate中实现了Display和FromStr trait
+    // Uri在http这个crate中实现了Display和FromStr trait，指定Vec里面的Uri类型使用DisplayFromStr trait进行格式化
+    // 声明嵌套类型的哪一个类型使用DisplayFromStr trait进行格式化
     #[serde_as(as = "Vec<DisplayFromStr>")]
     url: Vec<http::Uri>,
 }
@@ -53,6 +54,7 @@ struct SensitiveData(String);
 // "tag = "type"：指定在序列化时，使用一个名为 "type" 的字段来区分不同的枚举变体。
 // "content = "details"：表示枚举变体的具体内容将放在一个名为 "details" 的字段中。
 #[serde(rename_all = "camelCase", tag = "type", content = "details")]
+// 还有其它untagged_content等等
 enum WorkState {
     Working(String),
     OnLeave(DateTime<Utc>),
@@ -61,6 +63,7 @@ enum WorkState {
 
 fn main() -> Result<()> {
     // let state = WorkState::Working("Rust Egineer".to_string());
+    // 输出格式"state":{"type":"onLeave","details":"2024-09-21T05:42:02.267957800Z"},
     let state1 = WorkState::OnLeave(Utc::now());
     let user = User {
         name: "Alice".to_string(),
