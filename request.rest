@@ -2,11 +2,11 @@
 GET http://localhost:8080/
 
 ### update user
-PATCH http://localhost:8080/
+PATCH http://localhost:8081/
 Content-Type: application/json
 
 {
-    "age":10
+    "age":18
 }
 
 ### update user
